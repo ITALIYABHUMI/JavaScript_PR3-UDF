@@ -1,0 +1,46 @@
+<script type="text/javascript">
+
+
+        var a = parseInt(prompt("Enter Value Of A:"));
+        var b = parseInt(prompt("Enter Value Of B:"));
+        var c = parseInt(prompt("Enter Value Of C:"));
+      
+
+    function max(a,b,c){
+
+       
+        if(a>b){
+            if(a>c){
+               return 1;
+            }
+            else{
+                return 3;
+            }
+        }
+        else
+        {
+            if(b>c){
+                return 2;
+            }
+            else{
+                return 3;
+            }
+        }
+    }
+
+    ans = max(a,b,c);
+
+    if(ans==1){
+        console.log("A is Big.");
+        document.write("A is Big.");
+    }
+    else if(ans==2){
+        console.log("B is Big.");
+            document.write("B is Big.");
+    }
+    else{
+        console.log("C is Big.");
+        document.write("C is Big.");
+    }
+
+</script>
